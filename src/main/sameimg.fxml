@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="745.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.SameimgController">
+   <children>
+      <GridPane gridLinesVisible="true" layoutX="209.0" layoutY="125.0" prefHeight="570.0" prefWidth="621.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <AnchorPane>
+               <children>
+                  <ImageView fx:id="img0" fitHeight="140.0" fitWidth="150.0" layoutX="3.0" layoutY="2.0" pickOnBounds="true" />
+                  <Button fx:id="btn_0" layoutX="1.0" layoutY="1.0" mnemonicParsing="false" prefHeight="142.0" prefWidth="155.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane GridPane.columnIndex="1">
+               <children>
+                  <ImageView fx:id="img1" fitHeight="140.0" fitWidth="150.0" layoutX="3.0" layoutY="2.0" pickOnBounds="true" />
+                  <Button fx:id="btn_1" layoutX="1.0" mnemonicParsing="false" prefHeight="145.0" prefWidth="155.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane GridPane.columnIndex="2">
+               <children>
+                  <ImageView fx:id="img2" fitHeight="140.0" fitWidth="150.0" layoutY="2.0" pickOnBounds="true" />
+                  <Button fx:id="btn_2" layoutX="-1.0" mnemonicParsing="false" prefHeight="142.0" prefWidth="155.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane GridPane.columnIndex="3">
+               <children>
+                  <ImageView fx:id="img3" fitHeight="140.0" fitWidth="150.0" layoutX="3.0" layoutY="2.0" pickOnBounds="true" />
+                  <Button fx:id="btn_3" mnemonicParsing="false" prefHeight="142.0" prefWidth="155.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane GridPane.rowIndex="1">
+               <children>
+                  <ImageView fx:id="img4" fitHeight="142.0" fitWidth="155.0" layoutX="1.0" layoutY="1.0" pickOnBounds="true" />
+                  <Button fx:id="btn_4" layoutX="1.0" layoutY="1.0" mnemonicParsing="false" prefHeight="142.0" prefWidth="155.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <children>
+                  <ImageView fx:id="img5" fitHeight="140.0" fitWidth="150.0" layoutY="-2.0" pickOnBounds="true" />
+                  <Button fx:id="btn_5" mnemonicParsing="false" prefHeight="142.0" prefWidth="155.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <children>
+                  <ImageView fx:id="img6" fitHeight="140.0" fitWidth="150.0" layoutY="2.0" pickOnBounds="true" />
+                  <Button fx:id="btn_6" layoutX="-1.0" layoutY="1.0" mnemonicParsing="false" prefHeight="142.0" prefWidth="155.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <children>
+                  <ImageView fx:id="img7" fitHeight="140.0" fitWidth="150.0" layoutY="2.0" pickOnBounds="true" />
+                  <Button fx:id="btn_7" layoutX="1.0" layoutY="1.0" mnemonicParsing="false" prefHeight="142.0" prefWidth="155.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <children>
+                  <ImageView fx:id="img9" fitHeight="140.0" fitWidth="150.0" pickOnBounds="true" />
+                  <Button fx:id="btn_9" layoutY="-1.0" mnemonicParsing="false" prefHeight="142.0" prefWidth="155.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <children>
+                  <ImageView fx:id="img10" fitHeight="140.0" fitWidth="150.0" layoutY="5.0" pickOnBounds="true" />
+                  <Button fx:id="btn_10" layoutX="-2.0" layoutY="2.0" mnemonicParsing="false" prefHeight="142.0" prefWidth="155.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <children>
+                  <ImageView fx:id="img11" fitHeight="140.0" fitWidth="150.0" layoutY="4.0" pickOnBounds="true" />
+                  <Button fx:id="btn_11" layoutX="-2.0" layoutY="1.0" mnemonicParsing="false" prefHeight="142.0" prefWidth="156.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane GridPane.rowIndex="3">
+               <children>
+                  <ImageView fx:id="img12" fitHeight="140.0" fitWidth="150.0" layoutX="3.0" layoutY="4.0" pickOnBounds="true" />
+                  <Button fx:id="btn_12" layoutX="1.0" mnemonicParsing="false" prefHeight="142.0" prefWidth="155.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <children>
+                  <ImageView fx:id="img13" fitHeight="140.0" fitWidth="150.0" pickOnBounds="true" />
+                  <Button fx:id="btn_13" layoutY="-1.0" mnemonicParsing="false" prefHeight="142.0" prefWidth="155.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <children>
+                  <ImageView fx:id="img14" fitHeight="140.0" fitWidth="150.0" layoutX="3.0" layoutY="1.0" pickOnBounds="true" />
+                  <Button fx:id="btn_14" layoutX="1.0" layoutY="1.0" mnemonicParsing="false" prefHeight="142.0" prefWidth="155.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <children>
+                  <ImageView fx:id="img15" fitHeight="140.0" fitWidth="150.0" layoutX="6.0" layoutY="2.0" pickOnBounds="true" />
+                  <Button fx:id="btn_15" layoutX="1.0" layoutY="1.0" mnemonicParsing="false" prefHeight="142.0" prefWidth="155.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane GridPane.rowIndex="2">
+               <children>
+                  <ImageView fx:id="img8" fitHeight="140.0" fitWidth="150.0" layoutX="1.0" layoutY="1.0" pickOnBounds="true" />
+                  <Button fx:id="btn_08" layoutX="1.0" mnemonicParsing="false" prefHeight="142.0" prefWidth="155.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </GridPane>
+      <Label layoutX="209.0" layoutY="75.0" text="같은 그림 찾기">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="631.0" layoutY="81.0" text="시도한 횟수 : ">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="count" layoutX="776.0" layoutY="81.0" text="Label">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
